@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+    box-sizing: border-box;
+}
+.first_main{
+    background-color:rgb(243, 185, 37);
+   padding-bottom: 20px;
+}
+
+.linking{
+    color: aliceblue;
+}
+.linking:hover{
+color: yellow;
+}
+/* .linking:visited{
+    color: rgb(243, 185, 37);
+} */
+.btn1{
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: rgb(46, 45, 45);
+  border: 2px solid transparent;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  
+}
+.btn1:hover{
+    background-color: gray;
+}
+.second_main{
+    line-height: 1.7;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    /* background-color: red; */
+}
+.input_value{
+    border: 1px solid rgb(104, 100, 100);
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(82, 75, 75);
+    outline: none;
+}
+.input_value:focus{
+    border: 2px solid rgba(9, 9, 250, 0.959);
+
+}
+.btn2{
+    padding: 8px;
+  width:100px;
+  text-align: center;
+  background-color: rgb(46, 45, 45);
+  border: 2px solid transparent;
+  color: whitesmoke;
+  border-radius: 8px;
+  font-size: 18px;
+  /* margin-left:  890px;
+ top: 100px; */
+}
+.btn2:hover{
+    background-color: rgb(77, 73, 73);
+}
+.btn3{
+    padding: 5px;
+    width:23%;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 2px solid transparent;
+    color: black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold; 
+}
+.btn3:hover{
+    background-color:rgb(182, 178, 178);
+}
+.third_main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.linking1{
+    color: black;
+}
+.linking1:hover{
+    color: rgb(228, 192, 33);
+    }
+.fourth_main{
+    display: grid;
+    grid-template-columns: auto auto;
+} 
